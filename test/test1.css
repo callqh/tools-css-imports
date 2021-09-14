@@ -1,0 +1,12 @@
+@import url("./test2.less");
+
+/* 这是一个注释 */
+.a {
+  color: red;
+  height: 100px;/* 这也是一个注释*/
+  width: 100px;
+}
+
+.b {
+  background-image: url("./test/test.png");
+}

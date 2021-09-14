@@ -2,14 +2,39 @@
   "name": "@tools/css-import",
   "version": "0.0.1",
   "description": "一个用来查找样式文件中import语句的工具。支持css、less、scss、wxss等各种样式文件",
-  "main": "index.js",
+  "homepage": "https://github.com/liuqh0609/tools-css-imports",
+  "bugs": {
+    "url": "https://github.com/liuqh0609/tools-css-imports/issues"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "css-import",
+    "wxss",
+    "@import"
+  ],
   "scripts": {
+    "dev": "gulp default",
+    "build": "gulp build",
+    "publish": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "liuqh",
-  "license": "ISC",
+  "author": "liuqh <liuqh0609@163.com>",
   "devDependencies": {
+    "@types/gulp": "^4.0.9",
     "gulp": "^4.0.2",
+    "gulp-clean-dir": "^1.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^2.4.0",
+    "release-it": "^14.11.5",
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "strip-comments": "^2.0.1"
   }
 }
