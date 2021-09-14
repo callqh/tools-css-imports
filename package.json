@@ -1,0 +1,15 @@
+{
+  "name": "@tools/css-import",
+  "version": "0.0.1",
+  "description": "一个用来查找样式文件中import语句的工具。支持css、less、scss、wxss等各种样式文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liuqh",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "typescript": "^4.4.3"
+  }
+}
