@@ -1,9 +1,15 @@
-# 小工具 - css-import   
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/liuqh0609/tools-css-imports/LICENSE) [![npm](https://img.shields.io/npm/v/@tools/css-import/next.svg)](https://www.npmjs.com/package/@tools/css-import)
+<h1 align="center"> css-imports   </h1> 
+<h3 align="center">一个用来查找样式文件中 <code>@import</code> 语句的小工具</h3>
+<p align="center">
+<a href="https://github.com/liuqh0609/tools-css-imports/LICENSE">
+<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
+</a>
+<a href="https://www.npmjs.com/package/@tools/css-import">
+<img src="https://img.shields.io/npm/v/@tools/css-import/next.svg"/>
+</a>
+</p>
 
-
-**一个用来查找样式文件中 import 语句的小工具。**
-
+## 
 目前支持的样式文件:
 
 - `css`
@@ -70,5 +76,5 @@ export type Result = IResultProps[];
 const cssImport =  require('@tools/css-import').default;
 ```
 
-
-> 特别感谢[]()大佬，该项目是参考 [`css-imports`](https://github.com/popomore/css-imports) 项目改造的`ts`版本
+## 鸣谢
+> 特别感谢 [`popomore`](https://github.com/popomore)大佬，该项目是参考 [`css-imports`](https://github.com/popomore/css-imports) 项目改造的`ts`版本
