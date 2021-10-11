@@ -1,6 +1,6 @@
 {
-  "name": "@tools/css-import",
-  "version": "0.0.1",
+  "name": "find-css-import",
+  "version": "1.0.0",
   "description": "一个用来查找样式文件中import语句的工具。支持css、less、scss、wxss等各种样式文件",
   "homepage": "https://github.com/liuqh0609/tools-css-imports",
   "bugs": {
